@@ -1,3 +1,111 @@
-h1 {
-  color: red;
+
+/*
+couleur paragraphes
+*/
+
+p1 
+{
+color: black;
+font-size: 20px;
+display: center;
+text-align: center;
+}
+
+p
+{
+color: black;
+font-size: 20px;
+display: center;
+}
+
+
+.introduction
+{
+display: center;
+}
+
+
+.corpsdetexte
+{
+display: center;
+}
+/* 
+couleur du grand titre
+*/
+
+h1 
+{
+color: pink;
+font-size: 29px; 
+font-family: verdana;
+}
+
+.introduction
+{
+	color: black;
+}
+
+.navbar
+{
+	color: white;
+	background: url('images/banniere.jpeg'); 
+	repeat-x bottom; 
+	display: center;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-size: 26px;
+	font-family: verdana;
+	color: black;
+}
+
+.logo
+{
+width: 70px;
+height: 70px;
+}
+
+
+.footer
+{
+	display: inline-block; 
+	width: 150px;
+	border: 1px 
+	solid black; 
+	vertical-align: top;
+}
+
+img 
+{
+width: 100px; 
+height: 100px; 
+object-fit: cover; 
+}
+
+h2
+{
+	color: purple;
+	font-size: 22px;
+	font-family: verdana;
+}
+
+.aside
+{
+
+
+{
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+
+.cadre 
+{
+  background: white;
+  border: 5px solid black;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 30px;
 }
